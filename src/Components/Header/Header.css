@@ -1,0 +1,27 @@
+.header{
+    background-color:#F0FFF0 !important;
+}
+.header__image{
+    height: 70px;
+    padding:5px
+}
+.nav__link{
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 10px;
+    text-decoration: none;
+    color:#444444 !important;
+}
+.nav__link:hover{
+    color:white!important;
+    background-color: green;
+    border-radius: 50px;
+
+}
+
+.navbar-toggler{
+    border: 5px solid green!important;
+    background-color:green!important;
+}
+

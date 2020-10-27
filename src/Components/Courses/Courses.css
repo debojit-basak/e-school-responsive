@@ -1,0 +1,41 @@
+.course{
+    margin-top:30px;
+    margin-bottom: 70px;
+}
+
+h2{
+    text-align: center;
+    color: #413960;
+    font-weight: 700;
+    margin-bottom: 60px;
+
+}
+.course__body{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+    align-items: center;
+    width:400px;
+    height: 500px;
+}
+.course__body:hover {
+    box-shadow: none;
+    background-color: #F8FFFB;
+}
+.course__image{
+    height: 250px;
+    padding: 20px;
+}
+@media only screen and (max-width: 800px){
+    .course__body{
+        margin-top: 30px;
+        
+    
+    }
+    button{
+        margin-left: 20px;
+    }
+    .courses{
+        margin-top: 50px;
+    }
+}
